@@ -19,3 +19,4 @@ int main(void)
 	else
 		printf("%d id negative\n", n);
 	return (0);
+}
