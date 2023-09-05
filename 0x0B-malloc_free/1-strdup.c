@@ -4,13 +4,10 @@
 
 #include "main.h"
 
-/**		
+/**
  * _strdup - duplicate to new memory space location
-
  * @str: char
-
  * Return: 0 is valid
-
  */
 
 char *_strdup(char *str)
@@ -27,7 +24,7 @@ char *_strdup(char *str)
 
 		return (NULL);
 
-	i=0;
+	i = 0;
 
 	while (str[i] != '\0')
 
