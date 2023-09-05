@@ -48,20 +48,19 @@ int **alloc_grid(int width, int height)
 
 
 
-			free(mee);
+	free(mee);
+	return (NULL);
 
-			return (NULL);
-
-		}
+	}
 
 	}
 
 
 	for (x = 0; x < height; x++)
 	{
-		for (y = 0; y < width; y++)
+	for (y = 0; y < width; y++)
 
-			mee[x][y] = 0;
+	mee[x][y] = 0;
 
 	}
 
